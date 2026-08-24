@@ -1,0 +1,903 @@
+/* CSS RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+figure,
+figcaption {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* BODY STYLING */
+
+body {
+    background-color: #fff8f0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* HEADER STYLING */
+
+header {
+    text-align: center;
+    padding: 8px;
+    position: sticky;
+    top: 0;
+    background-color: #fff8f0;
+    z-index: 100;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    max-height: 50px;
+    width: auto;
+}
+
+
+/* NAVIGATION - MOBILE */
+
+nav {
+    text-align: center;
+    padding: 10px 5px;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+}
+
+nav li {
+    display: block;
+    border-top: 1px solid #8b4513;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #8b4513;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 6px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #fff;
+    background-color: #d2691e;
+}
+
+
+/* MOBILE AND TABLET-DESKTOP CLASSES */
+
+.mobile {
+    display: block;
+}
+
+.tablet-desktop {
+    display: none;
+}
+
+
+/* MAIN CONTENT */
+
+main {
+    background-color: #fff5e6;
+    padding: 30px;
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+
+/* RESPONSIVE IMAGES */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* PRODUCT IMAGES */
+
+#products img {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto 15px auto;
+}
+
+
+/* PRODUCT IDs */
+
+#product1 {
+    background-color: #fff4cc;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+#product2 {
+    background-color: #e4f5e8;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+#product3 {
+    background-color: #eee6fa;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+#product4 {
+    background-color: #f5e3cc;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+#product5 {
+    background-color: #ffe4e8;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+#product6 {
+    background-color: #f7e5c5;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+
+/* CONTACT PAGE */
+
+#contact {
+    background-color: #fff5f7;
+    padding: 20px;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+
+#contact-info {
+    line-height: 1.8;
+    padding: 15px;
+    text-align: center;
+}
+
+#contact-info a {
+    color: #8b4513;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#contact-info a:hover {
+    color: #d2691e;
+    text-decoration: underline;
+}
+
+
+/* CONTACT INTRO */
+
+#contact-intro {
+    text-align: center;
+    background-color: #fff4cc;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+#contact-intro h2 {
+    color: #8b4513;
+    margin-bottom: 15px;
+}
+
+#contact-intro p {
+    margin-bottom: 20px;
+}
+
+.contact-actions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+/* BUSINESS HOURS */
+
+#business-hours {
+    background-color: #fff5f7;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+#business-hours h2 {
+    color: #8b4513;
+    margin-bottom: 15px;
+}
+
+#business-hours .hours {
+    padding-left: 20px;
+}
+
+.hours {
+    list-style-type: square;
+}
+
+
+/* MAP */
+
+#map {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#map h2 {
+    color: #8b4513;
+    margin-bottom: 10px;
+}
+
+#map p {
+    margin-bottom: 15px;
+}
+
+.map {
+    width: 100%;
+    height: 400px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #f4d7b5;
+    color: #5a2d0c;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+}
+
+
+/* LINKS */
+
+.external-link {
+    color: #8b4513;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.tel-link {
+    color: #8b4513;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.tel-link:hover {
+    color: #d2691e;
+    text-decoration: underline;
+}
+
+
+/* ACTION BUTTONS */
+
+.action {
+    display: inline-block;
+    background-color: #d2691e;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.action:hover {
+    background-color: #8b4513;
+}
+
+
+/* FIGURE */
+
+figure {
+    background-color: #fff4cc;
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 100%;
+}
+
+figcaption {
+    font-style: italic;
+    color: #8b4513;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+
+/* HOME PAGE HERO */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.hero-text {
+    padding: 20px;
+}
+
+.hero-text h2 {
+    color: #8b4513;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    margin-bottom: 20px;
+}
+
+
+/* MOBILE CONTACT */
+
+.mobile-contact {
+    background-color: #fff4cc;
+    text-align: center;
+    padding: 25px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.mobile-contact h2 {
+    color: #8b4513;
+    margin-bottom: 15px;
+}
+
+.mobile-contact p {
+    margin-bottom: 15px;
+}
+
+.mobile-contact a:not(.action) {
+    color: #8b4513;
+    font-weight: bold;
+}
+
+
+/* MOBILE CONTACT HEADING */
+
+.mobile h3 {
+    text-shadow: 2px 2px 4px #999;
+}
+
+
+/* PRODUCTS INTRO */
+
+#products-intro {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#products-intro h2 {
+    color: #8b4513;
+    margin-bottom: 15px;
+}
+
+#products-intro p {
+    margin-bottom: 15px;
+}
+
+
+/* MOBILE ORDER */
+
+.mobile-order {
+    background-color: #fff4cc;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.mobile-order a {
+    color: #8b4513;
+    text-decoration: none;
+}
+
+.mobile-order a:hover {
+    color: #d2691e;
+    text-decoration: underline;
+}
+
+
+/* MOBILE ORDER SECTION */
+
+.mobile-order-section {
+    text-align: center;
+    background-color: #fff5f7;
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 10px;
+}
+
+.mobile-order-section h2 {
+    color: #8b4513;
+    margin-bottom: 10px;
+}
+
+.mobile-order-section p {
+    margin-bottom: 20px;
+}
+
+.mobile-order-section .action {
+    margin: 5px;
+}
+
+
+/* STAFF GRID */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.grid-item {
+    text-align: center;
+    padding: 15px;
+}
+
+
+/* WHY CHOOSE US */
+
+#why-choose-us {
+    background-color: #ffe4e8;
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#why-choose-us h2 {
+    color: #8b4513;
+    margin-bottom: 15px;
+}
+
+#why-choose-us p {
+    margin-bottom: 15px;
+}
+
+#why-choose-us ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#why-choose-us li {
+    margin: 8px 0;
+    font-weight: bold;
+}
+
+
+/* ========================================= */
+/* PRODUCT PAGE - MOBILE ARTICLE STYLING */
+/* ========================================= */
+
+
+/* Add padding to article elements */
+
+article {
+    padding: 20px;
+}
+
+
+/* Center h3 headings within articles */
+
+article h3 {
+    text-align: center;
+}
+
+
+/* Center images within article elements */
+
+article img {
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+
+/* Background color for the second article */
+
+main article:nth-of-type(2) {
+    background-color: #fff0f5;
+}
+
+
+/* Left margin for unordered lists inside articles */
+
+article ul {
+    margin-left: 25px;
+}
+
+
+/* Style the aside element */
+
+aside {
+    background-color: #fff4cc;
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+aside h2 {
+    color: #8b4513;
+    margin-bottom: 15px;
+}
+
+aside p {
+    margin-bottom: 15px;
+}
+
+aside a {
+    color: #8b4513;
+    font-weight: bold;
+}
+
+
+/* Make aside span three columns */
+
+.grid aside {
+    grid-column: 1 / -1;
+}
+
+
+/* Increase h3 size inside articles */
+
+article h3 {
+    font-size: 24px;
+}
+
+
+/* ========================================= */
+/* TABLET VIEWPORT */
+/* ========================================= */
+
+@media screen and (min-width: 630px) {
+
+    /* Show tablet and desktop content */
+
+    .tablet-desktop {
+        display: block;
+    }
+
+    /* Hide mobile content */
+
+    .mobile {
+        display: none;
+    }
+
+    /* Remove sticky header */
+
+    header {
+        position: static;
+    }
+
+    /* Horizontal navigation */
+
+    nav ul {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    nav li {
+        display: inline-block;
+        border-top: none;
+        border-right: 1px solid #8b4513;
+    }
+
+    nav li:last-child {
+        border-right: none;
+    }
+
+    /* Main unordered lists */
+
+    main ul {
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    /* Embedded map */
+
+    .map {
+        width: 600px;
+        height: 450px;
+    }
+
+
+    /* ========================================= */
+    /* TABLET PRODUCT GRID */
+    /* ========================================= */
+
+    main.grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    main.grid > section#products-intro {
+        grid-column: 1 / -1;
+    }
+
+    main.grid > article {
+        padding: 20px;
+    }
+
+    main.grid > aside {
+        grid-column: 1 / -1;
+    }
+
+    /* Linear gradient on product div */
+
+    #product1 {
+        background: linear-gradient(
+            to right,
+            #fff4cc,
+            #ffe8a8
+        );
+    }
+
+}
+
+
+/* ========================================= */
+/* DESKTOP VIEWPORT */
+/* ========================================= */
+
+@media screen and (min-width: 1024px) {
+
+    /* Header */
+
+    header {
+        position: static;
+        padding: 20px;
+        width: 30%;
+        float: left;
+    }
+
+
+    /* Navigation */
+
+    nav {
+        width: 70%;
+        float: right;
+        padding: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+    }
+
+    nav li {
+        display: block;
+        flex: 1;
+        text-align: center;
+        border-right: 1px solid #8b4513;
+    }
+
+    nav li:last-child {
+        border-right: none;
+    }
+
+    nav li a {
+        display: block;
+        padding: 10px 15px;
+    }
+
+
+    /* Desktop navigation hover */
+
+    nav li a:hover {
+        color: #fff;
+        background-color: #d2691e;
+        text-decoration: underline;
+    }
+
+
+    /* Clear floated header and navigation */
+
+    main {
+        clear: both;
+    }
+
+
+    /* Desktop main */
+
+    main {
+        width: 80%;
+        margin: 0 auto;
+        padding: 40px;
+    }
+
+
+    /* Desktop headings */
+
+    main h1,
+    main h2,
+    main h3,
+    main h4 {
+        text-align: center;
+    }
+
+
+    /* Desktop Home Page */
+
+    #container {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+    .hero {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+    }
+
+    .hero img {
+        width: 50%;
+    }
+
+    .hero-text {
+        width: 45%;
+    }
+
+
+    /* Desktop intro */
+
+    #intro {
+        padding: 30px;
+        text-align: left;
+    }
+
+    #intro h2 {
+        color: #8b4513;
+        margin-bottom: 20px;
+    }
+
+
+    /* Desktop Why Choose Us */
+
+    #why-choose-us {
+        padding: 30px;
+    }
+
+
+    /* Desktop gallery */
+
+    #dessert-gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    #dessert-gallery h2 {
+        grid-column: 1 / -1;
+    }
+
+
+    /* Desktop mobile contact */
+
+    .mobile-contact {
+        padding: 30px;
+    }
+
+
+    /* Desktop product articles */
+
+    main.grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+    }
+
+    main.grid > section#products-intro {
+        grid-column: 1 / -1;
+    }
+
+    main.grid > article {
+        padding: 25px;
+    }
+
+    main.grid > aside {
+        grid-column: 1 / -1;
+    }
+
+}
+
+
+/* ========================================= */
+/* LARGE DESKTOP VIEWPORT */
+/* ========================================= */
+
+@media screen and (min-width: 1920px) {
+
+    main {
+        width: 85%;
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+
+    main.grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+
+    .grid aside {
+        grid-column: 1 / -1;
+    }
+
+}
+
+
+/* ========================================= */
+/* PRINT VIEW */
+/* ========================================= */
+
+@media print {
+
+    body {
+        background-color: white;
+        color: black;
+        font-family: Arial, sans-serif;
+    }
+
+    header {
+        position: static;
+        box-shadow: none;
+    }
+
+    nav,
+    .action,
+    .mobile-contact,
+    .mobile-order-section {
+        display: none;
+    }
+
+    main {
+        width: 100%;
+        padding: 10px;
+        background-color: white;
+    }
+
+    footer {
+        background-color: white;
+        color: black;
+    }
+
+}
